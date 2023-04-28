@@ -1,0 +1,31 @@
+.footer {
+    padding: 60px 0 70px;
+}
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 152px;
+}
+
+.footer-navigation.layout-3-column {
+    width: 70%;      
+}
+
+.footer-navigation__title {
+    margin: 0 0 15px;
+}
+.footer-navigation__links {
+    list-style-type: none;
+    padding-left: 0;
+   
+    @extend %font-add;
+    a {
+        text-decoration: none;
+        color:$color-text;
+        @extend %transition;
+        @include font(1.6rem,3.5rem, normal );
+        &:hover {
+            color:$color-primary;  
+        }
+    }
+}

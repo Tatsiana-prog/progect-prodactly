@@ -1,0 +1,33 @@
+.about-us {
+    padding: 60px 0;
+}
+
+.employee.block-shadowed {
+    position: relative;
+    display: flex;
+    background: $color-light;
+    padding: 15px 20px;
+    box-shadow: 0 0 10px $color-shadow; /* Параметры тени */
+}
+
+.photo-1 {
+    background: url('../../img/employees/photo-1.jpg');    
+}
+.photo-2 {
+    background: url('../../img/employees/photo-2.jpg');    
+}
+.photo-3 {
+    background: url('../../img/employees/photo-3.jpg');    
+}
+
+.employee__photo {
+    position:absolute;
+    display: block;
+    top:16%;
+    right: -12.5%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

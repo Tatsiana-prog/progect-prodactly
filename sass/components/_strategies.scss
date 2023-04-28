@@ -1,0 +1,36 @@
+.strategies{
+    padding:30px 0 ;
+}
+.strategies__title {
+    margin:  0 0 14px;
+}
+.strategies__description {
+    margin:  0 0 24px;
+}
+.strategies__tags {
+    margin:0 0 31px;
+    display: inline-flex;
+    column-gap: 7px;
+}
+.tag {
+    display: inline-block;
+    padding: 3px 20px;
+    border-radius: 90px;
+    text-align: center;
+    &_selected {
+        color:$color-light;
+        background: $color-primary;
+    }
+    &_bordered {
+        border: 1px solid $color-border;
+        color: $color-text;       
+    }
+    &_colored {
+        background:$color-tag; 
+    }
+}
+
+.block-shadowed__title {
+    margin: 24px auto 29px;
+    text-align: center;
+}
